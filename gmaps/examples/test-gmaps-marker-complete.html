@@ -23,9 +23,9 @@
 		<div id="map" style="width: 80%;height: 70%;"></div>
 		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="gmaps.js"></script>
+		<script type="text/javascript" src="../js/gmaps.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
-		<script type="text/javascript" src="jquery.geocomplete.js"></script>
+		<script type="text/javascript" src="../js/jquery.geocomplete.js"></script>
 		
 		<script>
 			var map = new GMaps({
@@ -117,10 +117,8 @@
 				types: ["geocode", "establishment"],
 			}).bind("geocode:result", function(event, result){
 				// console.log(result);
-				
-				console.log(result.geometry.location.lng());
-				console.log(result.geometry.location.lat());
-				
+				// console.log(result.geometry.location.lng());
+				// console.log(result.geometry.location.lat());
 				
 				map.addMarker({
 					lat: result.geometry.location.lat(),
@@ -133,28 +131,11 @@
 						content: '<p>HTML Content</p>'
 					}
 				});
-				
 			});
 
 	        $(".find").click(function(){
 	        	$(this).parents(".location").find(".geocomplete").trigger("geocode");
 	        });
-	        /*
-	        $('#lat').on('input', function() { 
-	        	alert(this.value);
-	        });
-	        
-	        $("#lat").change(function() {
-	        	alert( "Handler for .change() called." );
-	        });
-	        
-	        var input = document.querySelector('#lat');
-
-	        input.addEventListener('#lat', function()
-	        {
-	            console.log('input changed to: ', input.value);
-	        });
-	        */
 		</script>
 	</body>
 </html>
