@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="KML points" />
+		<meta name="viewport"
+			content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<title>Test GMaps Marker</title>
+	</head>
+	
+	<body id="map">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="gmaps.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+		
+		<script>
+			var map = new GMaps({
+				div: '#map',
+				lat: -23.6818396,
+				lng: -46.62096700000001,
+				zoom: 6
+			});
+			
+			map.addMarker({
+				lat: -22.6818396,
+				lng: -46.62096700000001,
+				title: 'Teste 1',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -23.6818396,
+				lng: -46.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -20.6818396,
+				lng: -40.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -15.6818396,
+				lng: -50.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+		</script>
+	</body>
+</html>

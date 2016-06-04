@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="KML points" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<title>Test GMaps Marker</title>
+	</head>
+	
+	<body style="width: 100%;height: 100%;">
+		
+		<form style="width: 80%;">
+			<div class="location">
+				<input class="geocomplete" type="text" placeholder="Type in an address" value="Diadema - SP, Brasil" style="width: 500px;" />
+				<input class="find" type="button" value="find" />
+				<fieldset class="details">
+					<h3>Address-Details</h3>
+					<label>Latitude: </label> <input name="lat" id="lat" type="text" value="" disabled />
+					<label>Longitude: </label> <input name="lng" id="lng" type="text" value="" disabled />
+				</fieldset>
+			</div>
+		</form>
+		
+		<div id="map" style="width: 80%;height: 70%;"></div>
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="gmaps.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+		<script type="text/javascript" src="jquery.geocomplete.js"></script>
+		
+		<script>
+			var map = new GMaps({
+				div: '#map',
+				lat: -15.7942287,
+				lng: -47.882165799999996,
+				zoom: 3
+			});
+			
+			/*
+			for (var i = 0; i < 50; i++) {
+				map.addMarker({
+					lat: -1 * i,
+					lng: -1 * i,
+					title: 'Teste ' + i,
+					click: (function(e) {
+					    // alert('You clicked in this marker');
+					}), 
+					infoWindow: {
+						content: '<p>HTML Content</p>'
+					}
+				});
+				
+				map.addMarker({
+					lat: i,
+					lng: i,
+					title: 'Teste ' + i,
+					click: (function(e) {
+					    // alert('You clicked in this marker');
+					}), 
+					infoWindow: {
+						content: '<p>HTML Content</p>'
+					}
+				});
+			}
+			*/
+			
+			map.addMarker({
+				lat: -22.6818396,
+				lng: -46.62096700000001,
+				title: 'Teste 1',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -23.6818396,
+				lng: -46.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -20.6818396,
+				lng: -40.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			map.addMarker({
+				lat: -15.6818396,
+				lng: -50.62096700000001,
+				title: 'Teste 2',
+				click: (function(e) {
+				    // alert('You clicked in this marker');
+				}), 
+				infoWindow: {
+					content: '<p>HTML Content</p>'
+				}
+			});
+			
+			$(".geocomplete").geocomplete({
+				details: ".details",
+				detailsScope: '.location',
+				types: ["geocode", "establishment"],
+			}).bind("geocode:result", function(event, result){
+				// console.log(result);
+				
+				console.log(result.geometry.location.lng());
+				console.log(result.geometry.location.lat());
+				
+				
+				map.addMarker({
+					lat: result.geometry.location.lat(),
+					lng: result.geometry.location.lng(),
+					title: result.formatted_address,
+					click: (function(e) {
+					    // alert('You clicked in this marker');
+					}), 
+					infoWindow: {
+						content: '<p>HTML Content</p>'
+					}
+				});
+				
+			});
+
+	        $(".find").click(function(){
+	        	$(this).parents(".location").find(".geocomplete").trigger("geocode");
+	        });
+	        /*
+	        $('#lat').on('input', function() { 
+	        	alert(this.value);
+	        });
+	        
+	        $("#lat").change(function() {
+	        	alert( "Handler for .change() called." );
+	        });
+	        
+	        var input = document.querySelector('#lat');
+
+	        input.addEventListener('#lat', function()
+	        {
+	            console.log('input changed to: ', input.value);
+	        });
+	        */
+		</script>
+	</body>
+</html>
