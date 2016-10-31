@@ -2,7 +2,7 @@
 Simple API to search IP and user location data.
 
 ## Examples
-You can use:
+You can use [see more](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ipinfo/examples/index.html "see more"):
 ```javascript
 $(document).ready(function() {
 	$.get("http://ipinfo.io", function (response) {
