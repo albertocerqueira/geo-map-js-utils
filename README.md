@@ -1,7 +1,7 @@
 # Geo Map javascript Utils
 Files javascripts utils to Maps.
 
-## Libs:
+## Libs
 - [Geo Complete](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/ubilabs-geocomplete "Geo Complete")  
 	- [see an example API](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example API")  
 	- [see an example Blur](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Blur")  
@@ -21,8 +21,8 @@ Files javascripts utils to Maps.
 	- [see an example full screen](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/gmaps/examples/test-gmaps-marker.html "see an example full screen")  
 - [IP Info](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/ipinfo "IP Info") (it provides coordinates and location)  
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ipinfo/examples/index.html "see an example")
-- [IP Info](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/geoip-db "IP Info") (it provides coordinates and location)  
+- [GEO IP DB](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/geoip-db "IP Info") (it provides coordinates and location)  
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/geoip-db/examples/index.html "see an example")  
 
-## Contribuições
+## Contributions
 [Alberto Cerqueira](https://github.com/albertocerqueira/ "Alberto Cerqueira") - alberto.cerqueira1990@gmail.com  
