@@ -26,6 +26,8 @@ Files javascripts utils to Maps.
 - [jQuery GEO](https://github.com/jQueryGeo/geo "IP Info")  
 	- [see an example Test](http://htmlpreview.github.io/?https://github.com/jQueryGeo/geo/blob/master/test/test.html "see an example Test")  
 	- [see an example GEO](http://htmlpreview.github.io/?https://github.com/jQueryGeo/geo/blob/master/test/geo.html "see an example GEO")  
+	- [see an example Basics](http://htmlpreview.github.io/?https://github.com/jQueryGeo/geo/blob/master/test/qunit/basics.html "see an example Basics")  
+	- [see an example Find](http://htmlpreview.github.io/?https://github.com/jQueryGeo/geo/blob/master/test/qunit/find.html "see an example Find")  
 
 ## Contributions
 [Alberto Cerqueira](https://github.com/albertocerqueira/ "Alberto Cerqueira") - alberto.cerqueira1990@gmail.com  
