@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="content-language" content="pt-br" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Alberto Cerqueira" />
+        <meta name="reply-to" content="alberto.cerqueira1990@gmail.com" />
+        <meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="programador, java, ti, desenvolvedor, desenvolvimento, programação, api, framework, projeto, jquery, javascript, plugins" />
+		<meta name="description" content="JQuery GEO (Plugin)" />
+		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<script type="text/javascript" src="../jquery/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			//
+		</script>
+		
+		<title>JQuery GEO (Plugin)</title>
+	</head>
+	<body>
+		<form id="signup">
+			<h1>JQuery GEO (Plugin)</h1>
+			<h2>Test conducted on page load.</h2>
+			
+			<fieldset>
+				<legend>Get IP Info</legend>
+				<ol>
+					<li>
+						<label for=""><code>$.get("http://ipinfo.io", function (response) {});</code></label>
+					</li>
+					<li>
+						<label for=""><code>response.ip:</code></label>
+						<input type="text" id="getIPinfo1" />
+					</li>
+					<li>
+						<label for=""><code>response.hostname:</code></label>
+						<input type="text" id="getIPinfo2" />
+					</li>
+					<li>
+						<label for=""><code>response.city:</code></label>
+						<input type="text" id="getIPinfo3" />
+					</li>
+					<li>
+						<label for=""><code>response.region:</code></label>
+						<input type="text" id="getIPinfo4" />
+					</li>
+					<li>
+						<label for=""><code>response.country:</code></label>
+						<input type="text" id="getIPinfo5" />
+					</li>
+					<li>
+						<label for=""><code>response.loc:</code></label>
+						<input type="text" id="getIPinfo6" />
+					</li>
+					<li>
+						<label for=""><code>response.org:</code></label>
+						<input type="text" id="getIPinfo7" />
+					</li>
+				</ol>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$.get("http://ipinfo.io", function (response) {
+							$('#getIPinfo1').val(response.ip);
+							$('#getIPinfo2').val(response.hostname);
+							$('#getIPinfo3').val(response.city);
+							$('#getIPinfo4').val(response.region);
+							$('#getIPinfo5').val(response.country);
+							$('#getIPinfo6').val(response.loc);
+							$('#getIPinfo7').val(response.org);
+						}, "jsonp");
+					});
+				</script>
+			</fieldset>
+		</form>
+	</body>
+</html>

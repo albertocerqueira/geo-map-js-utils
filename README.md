@@ -19,6 +19,7 @@ Files javascripts utils to Maps.
 - [Gmaps](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/gmaps "Gmaps")  
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/gmaps/examples/test-gmaps-marker-complete.html "see an example")
 	- [see an example full screen](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/gmaps/examples/test-gmaps-marker.html "see an example full screen")
+- [IP Info](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/ipinfo "IP Info")
 
 ## Contribuições
 [Alberto Cerqueira](https://github.com/albertocerqueira/ "Alberto Cerqueira") - alberto.cerqueira1990@gmail.com  
