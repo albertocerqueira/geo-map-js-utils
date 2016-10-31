@@ -23,6 +23,7 @@ Files javascripts utils to Maps.
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ipinfo/examples/index.html "see an example")
 - [GEO IP DB](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/geoip-db "IP Info") (it provides coordinates and location)  
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/geoip-db/examples/index.html "see an example")  
+- [jQuery GEO](https://github.com/jQueryGeo/geo "IP Info")  
 
 ## Contributions
 [Alberto Cerqueira](https://github.com/albertocerqueira/ "Alberto Cerqueira") - alberto.cerqueira1990@gmail.com  
