@@ -15,10 +15,10 @@ Files javascripts utils to Maps.
 	- [see an example Multiple Fields](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Multiple Fields")
 	- [see an example Multiple Results](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Multiple Results")
 	- [see an example Simple](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Simple")
-	- [see an example Styled](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Styled")
+	- [see an example Styled](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ubilabs-geocomplete/examples/api.html "see an example Styled")  
 - [Gmaps](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/gmaps "Gmaps")  
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/gmaps/examples/test-gmaps-marker-complete.html "see an example")
-	- [see an example full screen](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/gmaps/examples/test-gmaps-marker.html "see an example full screen")
+	- [see an example full screen](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/gmaps/examples/test-gmaps-marker.html "see an example full screen")  
 - [IP Info](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/plugins/ipinfo "IP Info") (it provides coordinates and location)
 	- [see an example](http://htmlpreview.github.io/?https://github.com/albertocerqueira/geo-map-js-utils/blob/master/plugins/ipinfo/examples/index.html "see an example")
 
