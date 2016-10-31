@@ -1,9 +1,11 @@
-### Geo Map javascript Utils
-<sub>Files javascripts utils to Maps.</sub>
+# Geo Map javascript Utils
+Files javascripts utils to Maps.
 
-### <sub>Libs:</sub>
-- <sub>[Geo Complete](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/ubilabs-geocomplete "Geo Complete")</sub>  
-- <sub>[Gmaps](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/gmaps "Gmaps")</sub>  
+## Libs:
+- [Geo Complete](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/ubilabs-geocomplete "Geo Complete")  
+- [Gmaps](https://github.com/albertocerqueira/geo-map-js-utils/tree/master/gmaps "Gmaps")  
+	- [see an example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/albertocerqueira/geo-map-js-utils/tree/master/gmaps/examples/test-gmaps-marker-complete.html "see an example")
+	- [see an example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/albertocerqueira/geo-map-js-utils/tree/master/gmaps/examples/test-gmaps-marker.html "see an example")
 
-### <sub>Contribuições</sub>
-[<sub>Alberto Cerqueira</sub>](https://github.com/albertocerqueira/ "Alberto Cerqueira") <sub>- alberto.cerqueira1990@gmail.com</sub>  
+## Contribuições
+[Alberto Cerqueira](https://github.com/albertocerqueira/ "Alberto Cerqueira") - alberto.cerqueira1990@gmail.com  
